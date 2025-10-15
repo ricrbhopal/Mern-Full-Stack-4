@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top 50 OOPs Interview Questions & Answers</title>
+  </head>
+  <body>
+    <h1>Top 50 OOPs Interview Questions & Answers</h1>
+
+    <h3>1) What is OOPS?</h3>
+    <p>
+      OOPS is abbreviated as Object Oriented Programming system in which
+      programs are considered as a collection of objects. Each object is nothing
+      but an instance of a class.
+    </p>
+
+    <h3>2) Write basic concepts of OOPS?</h3>
+    <p>Following are the concepts of OOPS:</p>
+    <ol>
+      <li>Abstraction</li>
+      <li>Encapsulation</li>
+      <li>Inheritance</li>
+      <li>Polymorphism</li>
+    </ol>
+
+    <h3>3) What is a class?</h3>
+    <p>
+      A class is simply a representation of a type of object. It is the
+      blueprint/plan/template that describes the details of an object.
+    </p>
+
+    <h3>4) What is an Object?</h3>
+    <p>
+      An object is an instance of a class. It has its own state, behavior, and
+      identity.
+    </p>
+
+    <h3>5) What is Encapsulation?</h3>
+    <p>
+      Encapsulation is an attribute of an object, and it contains all data which
+      is hidden. That hidden data can be restricted to the members of that
+      class.
+    </p>
+    <p>
+      Levels are Public, Protected, Private, Internal, and Protected Internal.
+    </p>
+
+    <h3>6) What is Polymorphism?</h3>
+    <p>
+      Polymorphism is nothing but assigning behavior or value in a subclass to
+      something that was already declared in the main class. Simply,
+      polymorphism takes more than one form.
+    </p>
+
+    <h3>7) What is Inheritance?</h3>
+    <p>
+      Inheritance is a concept where one class shares the structure and behavior
+      defined in another class. If Inheritance applied to one class is called
+      Single Inheritance, and if it depends on multiple classes, then it is
+      called multiple Inheritance.
+    </p>
+
+    <h3>8) What are manipulators?</h3>
+    <p>
+      Manipulators are the functions which can be used in conjunction with the
+      insertion (<<) and extraction (>>) operators on an object. Examples are
+      endl and setw.
+    </p>
+
+    <h3>9) Explain the term constructor</h3>
+    <p>
+      A constructor is a method used to initialize the state of an object, and
+      it gets invoked at the time of object creation. Rules for constructor are:
+    </p>
+    <ul>
+      <li>Constructor Name should be the same as a class name.</li>
+      <li>A constructor must have no return type.</li>
+    </ul>
+
+    <h3>10) Define Destructor?</h3>
+    <p>
+      A destructor is a method which is automatically called when the object is
+      made of scope or destroyed. Destructor name is also same as class name but
+      with the tilde symbol before the name.
+    </p>
+
+    <h3>11) What is an Inline function?</h3>
+    <p>
+      An inline function is a technique used by the compilers and instructs to
+      insert complete body of the function wherever that function is used in the
+      program source code.
+    </p>
+
+    <h3>12) What is a virtual function?</h3>
+    <p>
+      A virtual function is a member function of a class, and its functionality
+      can be overridden in its derived class. This function can be implemented
+      by using a keyword called virtual, and it can be given during function
+      declaration.
+    </p>
+    <p>
+      A virtual function can be declared using a token(virtual) in C++. It can
+      be achieved in C/Python Language by using function pointers or pointers to
+      function.
+    </p>
+
+    <h3>13) What is a friend function?</h3>
+    <p>
+      A friend function is a friend of a class that is allowed to access to
+      Public, private, or protected data in that same class. If the function is
+      defined outside the class cannot access such information.
+    </p>
+    <p>
+      A friend can be declared anywhere in the class declaration, and it cannot
+      be affected by access control keywords like private, public, or protected.
+    </p>
+
+    <h3>14) What is function overloading?</h3>
+    <p>
+      Function overloading is a regular function, but it is assigned with
+      multiple parameters. It allows the creation of several methods with the
+      same name which differ from each other by the type of input and output of
+      the function.
+    </p>
+    <p><strong>Example</strong></p>
+    <pre>
+void add (int & a, int & b);
+void add (double& a, double& b);
+void add (struct bob& a, struct bob& b);
+    </pre>
+
+    <h3>15) What is operator overloading?</h3>
+    <p>
+      Operator overloading is a function where different operators are applied
+      and depends on the arguments. Operator, -, * can be used to pass through
+      the function, and it has its own precedence to execute.
+    </p>
+
+    <h3>16) What is an abstract class?</h3>
+    <p>
+      An abstract class is a class which cannot be instantiated. Creation of an
+      object is not possible with an abstract class, but it can be inherited. An
+      abstract class can contain only an Abstract method. Java allows only
+      abstract method in abstract class while other languages allow non-abstract
+      method as well.
+    </p>
+
+    <h3>17) What is a ternary operator?</h3>
+    <p>
+      The ternary operator is said to be an operator which takes three
+      arguments. Arguments and results are of different data types, and it
+      depends on the function. The ternary operator is also called a conditional
+      operator.
+    </p>
+
+    <h3>18) What is the use of finalize method?</h3>
+    <p>
+      Finalize method helps to perform cleanup operations on the resources which
+      are not currently used. Finalize method is protected, and it is accessible
+      only through this class or a derived class.
+    </p>
+
+    <h3>19) What are the different types of arguments?</h3>
+    <p>
+      A parameter is a variable used during the declaration of the function or
+      subroutine, and arguments are passed to the function body, and it should
+      match with the parameter defined. There are two types of Arguments.
+    </p>
+    <ul>
+      <li>
+        <strong>Call by Value</strong> — Value passed will get modified only
+        inside the function, and it returns the same value whatever it is passed
+        into the function.
+      </li>
+      <li>
+        <strong>Call by Reference</strong> — Value passed will get modified in
+        both inside and outside the functions and it returns the same or
+        different value.
+      </li>
+    </ul>
+
+    <h3>20) What is the super keyword?</h3>
+    <p>
+      The super keyword is used to invoke the overridden method, which overrides
+      one of its superclass methods. This keyword allows to access overridden
+      methods and also to access hidden members of the superclass.
+    </p>
+    <p>
+      It also forwards a call from a constructor, to a constructor in the
+      superclass.
+    </p>
+
+    <h3>21) What is method overriding?</h3>
+    <p>
+      Method overriding is a feature that allows a subclass to provide the
+      implementation of a method that overrides in the main class. It will
+      override the implementation in the superclass by providing the same method
+      name, same parameter, and same return type.
+    </p>
+
+    <h3>22) What is an interface?</h3>
+    <p>
+      An interface is a collection of an abstract method. If the class
+      implements an interface, it thereby inherits all the abstract methods of
+      an interface. Java uses Interface to implement multiple inheritances.
+    </p>
+
+    <h3>23) What is exception handling?</h3>
+    <p>
+      An exception is an event that occurs during the execution of a program.
+      Exceptions can be of any type — Runtime exception, Error exceptions. Those
+      exceptions are adequately handled through exception handling mechanism
+      like try, catch, and throw keywords.
+    </p>
+
+    <h3>24) What are tokens?</h3>
+    <p>
+      A compiler recognizes a token, and it cannot be broken down into component
+      elements. Keywords, identifiers, constants, string literals, and operators
+      are examples of tokens.
+    </p>
+    <p>
+      Even punctuation characters are also considered as tokens. Example:
+      Brackets, Commas, Braces, and Parentheses.
+    </p>
+
+    <h3>25) What is the main difference between overloading and overriding?</h3>
+    <p>
+      Overloading is static Binding, whereas Overriding is dynamic Binding.
+      Overloading is nothing but the same method with different arguments, and
+      it may or may not return the equal value in the same class itself.
+    </p>
+    <p>
+      Overriding is the same method names with the same arguments and return
+      types associated with the class and its child class.
+    </p>
+
+    <h3>26) What is the main difference between a class and an object?</h3>
+    <p>
+      An object is an instance of a class. Objects hold multiple information,
+      but classes don't have any information. Definition of properties and
+      functions can be done in class and can be used by the object.
+    </p>
+    <p>
+      A class can have sub-classes, while an object doesn't have sub-objects.
+    </p>
+
+    <h3>27) What is an abstraction?</h3>
+    <p>
+      Abstraction is a useful feature of OOPS, and it shows only the necessary
+      details to the client of an object. Meaning, it shows only required
+      details for an object, not the inner constructors, of an object. Example —
+      When you want to switch on the television, it is not necessary to know the
+      inner circuitry/mechanism needed to switch on the TV. Whatever is required
+      to switch on TV will be shown by using an abstract class.
+    </p>
+
+    <h3>28) What are the access modifiers?</h3>
+    <p>
+      Access modifiers determine the scope of the method or variables that can
+      be accessed from other various objects or classes. There are five types of
+      access modifiers, and they are as follows:
+    </p>
+    <ul>
+      <li>Private</li>
+      <li>Protected</li>
+      <li>Public</li>
+      <li>Friend</li>
+      <li>Protected Friend</li>
+    </ul>
+
+    <h3>29) What are sealed modifiers?</h3>
+    <p>
+      Sealed modifiers are the access modifiers where the methods can not
+      inherit it. Sealed modifiers can also be applied to properties, events,
+      and methods. This modifier cannot be used to static members.
+    </p>
+
+    <h3>30) How can we call the base method without creating an instance?</h3>
+    <p>
+      Yes, it is possible to call the base method without creating an instance.
+      And that method should be "Static method."
+    </p>
+    <p>
+      Doing Inheritance from that class.-Use Base Keyword from a derived class.
+    </p>
+
+    <h3>31) What is the difference between new and override?</h3>
+    <p>
+      The new modifier instructs the compiler to use the new implementation
+      instead of the base class function. Whereas, Override modifier helps to
+      override the base class function.
+    </p>
+
+    <h3>32) What are the various types of constructors?</h3>
+    <p>There are three types of constructors:</p>
+    <ul>
+      <li><strong>Default Constructor</strong> — With no parameters.</li>
+      <li>
+        <strong>Parametric Constructor</strong> — With Parameters. Create a new
+        instance of a class and also passing arguments simultaneously.
+      </li>
+      <li>
+        <strong>Copy Constructor</strong> — Which creates a new object as a copy
+        of an existing object.
+      </li>
+    </ul>
+
+    <h3>33) What is early and late Binding?</h3>
+    <p>
+      Early binding refers to the assignment of values to variables during
+      design time, whereas late Binding refers to the assignment of values to
+      variables during run time.
+    </p>
+
+    <h3>34) What is 'this' pointer?</h3>
+    <p>
+      THIS pointer refers to the current object of a class. THIS keyword is used
+      as a pointer which differentiates between the current object with the
+      global object. It refers to the current object.
+    </p>
+
+    <h3>35) What is the difference between structure and a class?</h3>
+    <p>
+      The default access type of a Structure is public, but class access type is
+      private. A structure is used for grouping data, whereas a class can be
+      used for grouping data and methods. Structures are exclusively used for
+      data, and it doesn't require strict validation, but classes are used to
+      encapsulate and inherent data, which requires strict validation.
+    </p>
+
+    <h3>36) What is the default access modifier in a class?</h3>
+    <p>
+      The default access modifier of a class is Internal and the default access
+      modifier of a class member is Private.
+    </p>
+
+    <h3>37) What is a pure virtual function?</h3>
+    <p>
+      A pure virtual function is a function which can be overridden in the
+      derived class but cannot be defined. A virtual function can be declared as
+      Pure by using the operator =0.
+    </p>
+    <p><strong>Example</strong> —</p>
+    <pre>
+Virtual void function1() // Virtual, Not pure
+Virtual void function2() = 0 // Pure virtual
+    </pre>
+
+    <h3>38) What are all the operators that cannot be overloaded?</h3>
+    <p>Following are the operators that cannot be overloaded:</p>
+    <ol>
+      <li>Scope Resolution (::)</li>
+      <li>Member Selection (.)</li>
+      <li>Member selection through a pointer to function (.*)</li>
+    </ol>
+
+    <h3>39) What is dynamic or run time polymorphism?</h3>
+    <p>
+      Dynamic or Run time polymorphism is also known as method overriding in
+      which call to an overridden function is resolved during run time, not at
+      the compile time. It means having two or more methods with the same name,
+      same signature but with different implementation.
+    </p>
+
+    <h3>40) Do we require a parameter for constructors?</h3>
+    <p>No, we do not require a parameter for constructors.</p>
+
+    <h3>41) What is a copy constructor?</h3>
+    <p>
+      This is a special constructor for creating a new object as a copy of an
+      existing object. There will always be only one copy constructor that can
+      be either defined by the user or the system.
+    </p>
+
+    <h3>
+      42) What does the keyword virtual represented in the method definition?
+    </h3>
+    <p>It means we can override the method.</p>
+
+    <h3>43) Whether static method can use nonstatic members?</h3>
+    <p>False.</p>
+
+    <h3>44) What are a base class, subclass, and superclass?</h3>
+    <p>
+      The base class is the most generalized class, and it is said to be a root
+      class.
+    </p>
+    <p>
+      A Subclass is a class that inherits from one or more base classes. The
+      superclass is the parent class from which another class inherits.
+    </p>
+
+    <h3>45) What is static and dynamic Binding?</h3>
+    <p>
+      Binding is nothing but the association of a name with the class. Static
+      Binding is a binding in which name can be associated with the class during
+      compilation time, and it is also called as early Binding.
+    </p>
+    <p>
+      Dynamic Binding is a binding in which name can be associated with the
+      class during execution time, and it is also called as Late Binding.
+    </p>
+
+    <h3>46) How many instances can be created for an abstract class?</h3>
+    <p>
+      Zero instances will be created for an abstract class. In other words, you
+      cannot create an instance of an Abstract Class.
+    </p>
+
+    <h3>47) Which keyword can be used for overloading?</h3>
+    <p>Operator keyword is used for overloading.</p>
+
+    <h3>48) What is the default access specifier in a class definition?</h3>
+    <p>Private access specifier is used in a class definition.</p>
+
+    <h3>49) Which OOPS concept is used as a reuse mechanism?</h3>
+    <p>
+      Inheritance is the OOPS concept that can be used as a reuse mechanism.
+    </p>
+
+    <h3>
+      50) Which OOPS concept exposes only the necessary information to the
+      calling functions?
+    </h3>
+    <p>Encapsulation</p>
+
+    <h3>51) What is method hiding?</h3>
+    <p>
+      Method hiding occurs when a subclass defines a static method with the same
+      signature as a static method in the parent class. Unlike method
+      overriding, method hiding doesn't involve dynamic binding.
+    </p>
+
+    <h3>
+      52) What is the difference between abstract class and concrete class?
+    </h3>
+    <p>
+      A concrete class is a regular class that can be instantiated and contains
+      complete implementation of all its methods. An abstract class cannot be
+      instantiated and may contain abstract methods without implementation.
+    </p>
+
+    <h3>53) Can we have multiple classes in a single file?</h3>
+    <p>
+      Yes, we can have multiple classes in a single file. However, only one
+      class can be public, and the file name must match the public class name.
+    </p>
+
+    <h3>54) What is a singleton class?</h3>
+    <p>
+      A singleton class is a class that allows only one instance of itself to be
+      created. It provides a global point of access to that instance. This is
+      achieved by making the constructor private and providing a static method
+      to get the instance.
+    </p>
+
+    <h3>55) What is a nested class?</h3>
+    <p>
+      A nested class is a class that is defined within another class. There are
+      two types: static nested classes and inner classes (non-static nested
+      classes).
+    </p>
+
+    <h3>56) What is an anonymous class?</h3>
+    <p>
+      An anonymous class is a class without a name that is declared and
+      instantiated in a single statement. It is used when you need to use a
+      class only once.
+    </p>
+
+    <h3>57) What is the difference between aggregation and association?</h3>
+    <p>
+      Association is a general relationship between two classes where one class
+      uses another. Aggregation is a specialized form of association that
+      represents a "has-a" relationship where the child can exist independently
+      of the parent.
+    </p>
+
+    <h3>58) What is a package?</h3>
+    <p>
+      A package is a namespace that organizes a set of related classes and
+      interfaces. It helps in avoiding name conflicts and controlling access to
+      classes.
+    </p>
+
+    <h3>59) What are wrapper classes?</h3>
+    <p>
+      Wrapper classes are classes that encapsulate primitive data types into
+      objects. Examples include Integer, Double, Boolean, Character, etc.
+    </p>
+
+    <h3>60) What is autoboxing and unboxing?</h3>
+    <p>
+      Autoboxing is the automatic conversion of primitive types to their
+      corresponding wrapper class objects. Unboxing is the reverse process -
+      converting wrapper class objects back to primitive types.
+    </p>
+
+    <h3>61) What is a constant?</h3>
+    <p>
+      A constant is a variable whose value cannot be changed once it is
+      assigned. In Java, constants are declared using the 'final' keyword. By
+      convention, constant names are written in uppercase.
+    </p>
+
+    <h3>62) What is the instanceof operator?</h3>
+    <p>
+      The instanceof operator is used to test whether an object is an instance
+      of a specific class or implements a specific interface. It returns true or
+      false.
+    </p>
+
+    <h3>63) What is garbage collection?</h3>
+    <p>
+      Garbage collection is an automatic memory management process that
+      identifies and removes objects that are no longer needed by the program,
+      freeing up memory resources.
+    </p>
+
+    <h3>64) Can we override private methods?</h3>
+    <p>
+      No, private methods cannot be overridden because they are not visible to
+      subclasses. However, a subclass can define a method with the same name,
+      which is not overriding but a new method.
+    </p>
+
+    <h3>65) Can we override final methods?</h3>
+    <p>
+      No, final methods cannot be overridden. The final keyword prevents method
+      overriding in subclasses.
+    </p>
+
+    <h3>66) What is the protected keyword?</h3>
+    <p>
+      The protected keyword is an access modifier that allows access to members
+      within the same package and by subclasses in other packages.
+    </p>
+
+    <h3>
+      67) What is the difference between protected and default access modifiers?
+    </h3>
+    <p>
+      Protected members are accessible within the same package and by subclasses
+      in other packages. Default (package-private) members are only accessible
+      within the same package.
+    </p>
+
+    <h3>68) What is a marker interface?</h3>
+    <p>
+      A marker interface is an interface with no methods or fields. It is used
+      to mark classes that possess a certain property. Examples include
+      Serializable, Cloneable, and Remote interfaces.
+    </p>
+
+    <h3>69) What is the Serializable interface?</h3>
+    <p>
+      The Serializable interface is a marker interface used to enable
+      serialization of objects. Serialization is the process of converting an
+      object into a byte stream for storage or transmission.
+    </p>
+
+    <h3>70) What is the Cloneable interface?</h3>
+    <p>
+      The Cloneable interface is a marker interface that indicates that a class
+      allows cloning of its objects. Classes implementing this interface can use
+      the clone() method.
+    </p>
+
+    <h3>71) What is shallow copy vs deep copy?</h3>
+    <p>
+      Shallow copy creates a new object but references the same nested objects.
+      Deep copy creates a new object and recursively copies all nested objects,
+      creating completely independent copies.
+    </p>
+
+    <h3>72) What is the difference between == and equals() method?</h3>
+    <p>
+      The == operator compares object references (memory addresses), while the
+      equals() method compares the actual content/values of objects. The
+      equals() method can be overridden to provide custom comparison logic.
+    </p>
+
+    <h3>73) What is the hashCode() method?</h3>
+    <p>
+      The hashCode() method returns an integer hash code value for an object. It
+      is used in hash-based collections like HashMap and HashSet to efficiently
+      store and retrieve objects.
+    </p>
+
+    <h3>74) What is the toString() method?</h3>
+    <p>
+      The toString() method returns a string representation of an object. It is
+      commonly overridden to provide meaningful information about the object's
+      state.
+    </p>
+
+    <h3>75) What is method chaining?</h3>
+    <p>
+      Method chaining is a technique where multiple methods are called on the
+      same object in a single statement. Each method returns the current object
+      (this), allowing the next method to be called.
+    </p>
+
+    <h3>76) What is the Builder pattern?</h3>
+    <p>
+      The Builder pattern is a creational design pattern used to construct
+      complex objects step by step. It separates the construction of an object
+      from its representation.
+    </p>
+
+    <h3>77) What is the Factory pattern?</h3>
+    <p>
+      The Factory pattern is a creational design pattern that provides an
+      interface for creating objects without specifying their exact classes. It
+      encapsulates object creation logic.
+    </p>
+
+    <h3>78) What is the Singleton pattern?</h3>
+    <p>
+      The Singleton pattern ensures that a class has only one instance and
+      provides a global point of access to that instance. It is implemented by
+      making the constructor private and providing a static method to get the
+      instance.
+    </p>
+
+    <h3>79) What is the Observer pattern?</h3>
+    <p>
+      The Observer pattern is a behavioral design pattern where an object
+      (subject) maintains a list of dependents (observers) and notifies them
+      automatically of any state changes.
+    </p>
+
+    <h3>80) What is the difference between composition and inheritance?</h3>
+    <p>
+      Inheritance represents an "is-a" relationship and creates a tight coupling
+      between classes. Composition represents a "has-a" relationship and creates
+      a loose coupling, making the code more flexible and maintainable.
+    </p>
+
+    <h3>81) What is the Liskov Substitution Principle?</h3>
+    <p>
+      The Liskov Substitution Principle states that objects of a superclass
+      should be replaceable with objects of its subclasses without breaking the
+      application. Subclasses should extend, not replace, the behavior of the
+      parent class.
+    </p>
+
+    <h3>82) What is the Open/Closed Principle?</h3>
+    <p>
+      The Open/Closed Principle states that software entities should be open for
+      extension but closed for modification. You should be able to add new
+      functionality without changing existing code.
+    </p>
+
+    <h3>83) What is the Single Responsibility Principle?</h3>
+    <p>
+      The Single Responsibility Principle states that a class should have only
+      one reason to change, meaning it should have only one job or
+      responsibility.
+    </p>
+
+    <h3>84) What is the Interface Segregation Principle?</h3>
+    <p>
+      The Interface Segregation Principle states that no client should be forced
+      to depend on methods it does not use. It's better to have many specific
+      interfaces than one general-purpose interface.
+    </p>
+
+    <h3>85) What is the Dependency Inversion Principle?</h3>
+    <p>
+      The Dependency Inversion Principle states that high-level modules should
+      not depend on low-level modules. Both should depend on abstractions.
+      Abstractions should not depend on details; details should depend on
+      abstractions.
+    </p>
+
+    <h3>86) What is tight coupling vs loose coupling?</h3>
+    <p>
+      Tight coupling means classes are highly dependent on each other, making
+      changes difficult. Loose coupling means classes are independent and
+      interact through interfaces, making the system more flexible and
+      maintainable.
+    </p>
+
+    <h3>87) What is the difference between static and instance variables?</h3>
+    <p>
+      Static variables belong to the class and are shared among all instances.
+      Instance variables belong to individual objects and each object has its
+      own copy.
+    </p>
+
+    <h3>88) Can we declare a class as static?</h3>
+    <p>
+      We cannot declare a top-level class as static. However, we can declare
+      nested classes as static (static nested classes).
+    </p>
+
+    <h3>89) What is a static block?</h3>
+    <p>
+      A static block is a block of code that is executed when the class is
+      loaded into memory. It is used to initialize static variables or perform
+      one-time setup operations.
+    </p>
+
+    <h3>90) What is an initializer block?</h3>
+    <p>
+      An initializer block (or instance initializer block) is a block of code
+      that is executed when an object is created, before the constructor. It is
+      used to initialize instance variables.
+    </p>
+
+    <h3>91) What is the order of execution in a class?</h3>
+    <p>
+      The order is: 1) Static blocks and static variables (when class is
+      loaded), 2) Instance blocks and instance variables (when object is
+      created), 3) Constructor.
+    </p>
+
+    <h3>92) Can constructors be private?</h3>
+    <p>
+      Yes, constructors can be private. This is commonly used in the Singleton
+      pattern to prevent direct instantiation of the class from outside.
+    </p>
+
+    <h3>93) What is constructor chaining?</h3>
+    <p>
+      Constructor chaining is the process of calling one constructor from
+      another constructor using this() or super(). It helps in code reuse and
+      reduces duplication.
+    </p>
+
+    <h3>94) What is the super() method?</h3>
+    <p>
+      The super() method is used to call the constructor of the parent class. It
+      must be the first statement in the child class constructor.
+    </p>
+
+    <h3>95) Can we have a constructor in an abstract class?</h3>
+    <p>
+      Yes, abstract classes can have constructors. These constructors are called
+      when a concrete subclass is instantiated.
+    </p>
+
+    <h3>96) Can we have a constructor in an interface?</h3>
+    <p>
+      No, interfaces cannot have constructors because interfaces cannot be
+      instantiated.
+    </p>
+
+    <h3>97) What are default methods in interfaces?</h3>
+    <p>
+      Default methods (introduced in Java 8) are methods with implementation in
+      interfaces. They allow adding new methods to interfaces without breaking
+      existing implementations.
+    </p>
+
+    <h3>98) What are static methods in interfaces?</h3>
+    <p>
+      Static methods in interfaces (introduced in Java 8) belong to the
+      interface itself and cannot be overridden. They are called using the
+      interface name.
+    </p>
+
+    <h3>99) What is multiple inheritance of type?</h3>
+    <p>
+      Multiple inheritance of type is when a class implements multiple
+      interfaces. This is allowed because interfaces only define method
+      signatures without implementation, avoiding the diamond problem.
+    </p>
+
+    <h3>100) What is the difference between extends and implements?</h3>
+    <p>
+      The 'extends' keyword is used for class inheritance (one class inheriting
+      from another class or one interface extending another interface). The
+      'implements' keyword is used when a class implements an interface.
+    </p>
+
+  </body>
+</html>
